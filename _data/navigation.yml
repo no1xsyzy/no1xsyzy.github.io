@@ -1,0 +1,12 @@
+- name: 主页
+  engl: Homepage
+  link: /
+- name: 项目
+  engl: Project
+  link: /project.html
+- name: 使ってみた
+  engl: PoC && Demo
+  link: /tukattemita.html
+- name: 关于
+  engl: About
+  link: /about.html

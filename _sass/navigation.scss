@@ -17,7 +17,7 @@ nav {
     padding: 0 0 0 10px;
   }
 
-  a.nav-item {
+  a.nav-item {  // other tabs
     text-decoration: none;
     color: inherit;
 
@@ -26,15 +26,17 @@ nav {
     }
   }
 
-  span.nav-item {
+  span.nav-item {  // currect tab
     background-color: white;
     cursor: default;
   }
-	.engl-name{
-		font-size: 12px;
-		color: #bbb;
-	}
+
+  .engl-name{
+    font-size: 12px;
+    color: #bbb;
+  }
 }
 main {
-	left: 210px;
+  left: 210px;
+  width: calc( 100% - 210px - 50px*2 );
 }

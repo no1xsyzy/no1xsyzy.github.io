@@ -1,15 +1,15 @@
 <nav>
   {% for item in site.data.navigation %}
-    {% if page.url == item.link %}
-      <span class="nav-item no-select-start">
-        {{ item.name }}
-        <span class="engl-name">{{ item.engl }}</span>
-      </span>
-    {% else %}
-      <a class="nav-item no-drag-start" href="{{ item.link }}">
-        {{ item.name }}
-        <span class="engl-name">{{ item.engl }}</span>
-      </a>
-    {% endif %}
+  {% if page.url == item.url %}
+  <span class="nav-item no-select-start">
+    {{ item.name }}
+    <span class="engl-name">{{ item.engl }}</span>
+  </span>
+  {% else %}
+  <a class="nav-item no-drag-start" href="{{ item.link }}">
+    {{ item.name }}
+    <span class="engl-name">{{ item.engl }}</span>
+  </a>
+  {% endif %}
   {% endfor %}
 </nav>

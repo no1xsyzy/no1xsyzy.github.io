@@ -1,9 +1,12 @@
 - name: 主页
   engl: Homepage
   link: /
+  url: /
 - name: 项目
   engl: Project
   link: /tukuttemita
+  url: /tukuttemita.html
 - name: 练练手
   engl: PoC && Demo
   link: /tukattemita
+  url: /tukattemita.html

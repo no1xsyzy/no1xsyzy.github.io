@@ -1,9 +1,9 @@
 - name: 主页
   engl: Homepage
   link: /
-- name: 創ってみた
+- name: 项目
   engl: Project
-  link: /project.html
-- name: 使ってみた
+  link: /tukuttemiru.html
+- name: 练练手
   engl: PoC && Demo
-  link: /demo.html
+  link: /tukattemiru.html

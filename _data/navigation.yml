@@ -13,3 +13,8 @@
   link: /tukattemita
   url: /tukattemita.html
   category: tukattemita
+- name: 说些话
+  engl: Essays
+  link: /hanasu/
+  url: /hanasu.html
+  category: "hanasu"

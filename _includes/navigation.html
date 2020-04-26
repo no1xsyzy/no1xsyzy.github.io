@@ -1,14 +1,22 @@
 <nav>
-  {% for item in site.data.navigation %}
-  {% if page.url == item.url %}
+  <!-- page.category: {{ page.category }} -->
+  {% for naventry in site.data.navigation %}
+  <!-- naventry.category: {{ naventry.category }} -->
+  {% if page.url == naventry.url %}
   <span class="nav-item no-select-start">
-    {{ item.name }}
-    <span class="engl-name">{{ item.engl }}</span>
+    {{ naventry.name }}
+    <span class="engl-name">{{ naventry.engl }}</span>
   </span>
+  {% elsif page.category == naventry.category %}
+  <!-- TODO: current-category might need expansion -->
+  <a class="nav-item no-drag-start current-category" href="{{ naventry.link }}">
+    {{ naventry.name }}
+    <span class="engl-name">{{ naventry.engl }}</span>
+  </a>
   {% else %}
-  <a class="nav-item no-drag-start" href="{{ item.link }}">
-    {{ item.name }}
-    <span class="engl-name">{{ item.engl }}</span>
+  <a class="nav-item no-drag-start" href="{{ naventry.link }}">
+    {{ naventry.name }}
+    <span class="engl-name">{{ naventry.engl }}</span>
   </a>
   {% endif %}
   {% endfor %}

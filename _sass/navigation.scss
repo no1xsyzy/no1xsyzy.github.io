@@ -21,8 +21,12 @@ nav {
     text-decoration: none;
     color: inherit;
 
-    &:hover {
+    &.current-category{
       background-color: #ddd;
+    }
+
+    &:hover {
+      background-color: #eee;
     }
   }
 

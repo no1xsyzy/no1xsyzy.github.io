@@ -2,11 +2,14 @@
   engl: Homepage
   link: /
   url: /
+  category: index
 - name: 项目
   engl: Project
   link: /tukuttemita
   url: /tukuttemita.html
+  category: tukuttemita
 - name: 练练手
   engl: PoC && Demo
   link: /tukattemita
   url: /tukattemita.html
+  category: tukattemita

@@ -2,3 +2,4 @@ title: InQβ
 description: 求异存同
 layout: default
 lang: zh-CN
+permalink: "/:categories/:title:output_ext"

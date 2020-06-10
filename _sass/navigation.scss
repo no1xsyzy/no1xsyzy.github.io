@@ -42,5 +42,6 @@ nav {
 }
 main {
   left: 210px;
-  width: calc( 100% - 210px - 50px*2 );
+  width: calc( 100% - 210px - 50px*2 - 250px );
+  min-width: 360px;
 }

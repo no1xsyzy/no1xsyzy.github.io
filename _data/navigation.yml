@@ -18,3 +18,8 @@
   link: /hanasu/
   url: /hanasu.html
   category: "hanasu"
+- name: 断想
+  engl: Thoughts
+  link: /kangaeru/
+  url: /kangaeru.html
+  category: "kangaeru"

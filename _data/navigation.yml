@@ -1,25 +1,20 @@
 - name: 主页
   engl: Homepage
   link: /
-  url: /
   category: index
 - name: 项目
   engl: Project
   link: /tukuttemita
-  url: /tukuttemita.html
   category: tukuttemita
 - name: 练练手
   engl: PoC && Demo
   link: /tukattemita
-  url: /tukattemita.html
   category: tukattemita
 - name: 说些话
   engl: Essays
   link: /hanasu
-  url: /hanasu.html
   category: "hanasu"
 - name: 断想
   engl: Thoughts
   link: /kangaeru
-  url: /kangaeru.html
   category: "kangaeru"

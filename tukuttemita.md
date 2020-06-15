@@ -14,5 +14,5 @@ subtitle: Project
 
 ## [winrunner](https://github.com/no1xsyzy/winrunner)
 
-在 Windows 平台下快速建立 Win+R 运行集
-采用 PowerShell 编写，计划转 Python GUI
+在 Windows 平台下快速建立 Win+R 运行集。
+采用 PowerShell 编写，计划转 Python GUI。

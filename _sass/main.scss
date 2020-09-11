@@ -7,7 +7,7 @@ html {
 main {
   position: relative;
   top: 0;
-  padding: 30px 50px;
+  margin: 30px 50px;
   width:100%;
 
   &>* {
@@ -23,4 +23,9 @@ blockquote {
   border-left: 10px #0ff solid;
   border-radius: 10px;
   background-color: #f0ffff;
+}
+footer {
+  font-size: 12px;
+  margin: 30px;
+  margin-left: 250px;
 }

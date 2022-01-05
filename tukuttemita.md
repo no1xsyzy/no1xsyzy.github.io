@@ -5,7 +5,7 @@ subtitle: Project
 
 你大概可以相信这里的东西是有用的。
 
-## [webui-aria2](http://webui-aria2.inqb.ga/)
+## [webui-aria2](http://no1xsyzy.github.io/webui-aria2/)
 
 [Github repo](https://github.com/no1xsyzy/webui-aria2)
 : forked from [ziahamza/webui-aria2](https://github.com/ziahamza/webui-aria2)
